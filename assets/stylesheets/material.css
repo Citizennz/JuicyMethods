@@ -1,0 +1,54 @@
+/* Color palettes */
+[data-md-color-scheme="popstar"] {
+    --md-primary-fg-color: rgb(74, 44, 76);
+    --md-primary-fg-color--light: rgb(113, 67, 117);
+    --md-primary-fg-color--lighter: rgb(151, 89, 155);
+    --md-primary-fg-color--lightest: rgb(177, 125, 181);
+    --md-accent-fg-color: rgb(135, 42, 141);
+}
+
+[data-md-color-scheme="popstar"] > * {
+    --md-typeset-a-color: var(--md-primary-fg-color--lighter);
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 210;
+    --md-primary-fg-color: rgb(74, 44, 76);
+    --md-primary-fg-color--light: rgb(113, 67, 117);
+    --md-primary-fg-color--lighter: rgb(151, 89, 155);
+    --md-primary-fg-color--lightest: rgb(177, 125, 181);
+    --md-accent-fg-color: rgb(135, 42, 141);
+}
+
+[data-md-color-scheme="slate"] > * {
+    --md-typeset-a-color: var(--md-primary-fg-color--lighter);
+}
+
+.md-typeset .md-button {
+	color: var(--md-primary-fg-color--light);
+}
+
+.md-typeset .md-button:hover {
+	background-color: var(--md-accent-fg-color);
+    color: var(--md-primary-bg-color);
+}
+
+.md-typeset .md-button--primary {
+	color: var(--md-primary-bg-color);
+	background-color: var(--md-primary-fg-color--light);
+	border-color: var(--md-primary-fg-color--light);
+}
+
+/* Emoji adjustement */
+.md-typeset a.md-button--primary .twemoji,
+.md-typeset a.md-button .twemoji {
+    margin-right: 6px;
+}
+
+/* Header adjustment */
+.md-header__source {
+    text-align: right;
+    width: 7rem;
+    margin-left: 1rem;
+    margin-right: .5rem;
+}

@@ -1,0 +1,52 @@
+/* Hide permalinks for H1 headers */
+.md-typeset h1 .headerlink {
+    display: none;
+}
+
+/* Decrease margin for headers in admonitions */
+.md-typeset div.admonition h2, .md-typeset details h2,
+.md-typeset div.admonition h3, .md-typeset details h3,
+.md-typeset div.admonition h4, .md-typeset details h4 
+{
+    margin: .64em 0 .64em;
+}
+
+/* Hide search-break H6 headers */
+div.admonition h6, details h6, .md-typeset h6 {
+    display: none
+}
+
+/* Place headers out of float elemets*/
+.md-typeset h2, .md-typeset h3, .md-typeset h4 {
+    clear: both;
+}
+
+
+/* Title alingment and size */
+h1 {
+    text-align: center;
+}
+
+.md-search-result__title {
+    text-align: left;
+}
+
+.md-typeset h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+.md-typeset h2 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.md-typeset h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.md-typeset h4 {
+    font-size: 1.25em;
+    font-weight: 400;
+}
